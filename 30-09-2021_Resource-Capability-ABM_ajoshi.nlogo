@@ -1513,41 +1513,16 @@ capability-call-help
 -1000
 
 @#$#@#$#@
-## WHAT IS IT?
+## THE RESOURCE-CAPABILITY SYSTEM AGENT-BASED MODEL
 
-(a general understanding of what the model is trying to show or explain)
-
-## HOW IT WORKS
-
-(what rules the agents use to create the overall behavior of the model)
-
-## HOW TO USE IT
-
-(how to use the model, including a description of each of the items in the Interface tab)
-
-## THINGS TO NOTICE
-
-(suggested things for the user to notice while running the model)
-
-## THINGS TO TRY
-
-(suggested things for the user to try to do (move sliders, switches, etc.) with the model)
-
-## EXTENDING THE MODEL
-
-(suggested things to add or change in the Code tab to make the model more complicated, detailed, accurate, etc.)
-
-## NETLOGO FEATURES
-
-(interesting or unusual features of NetLogo that the model uses, particularly in the Code tab; or where workarounds were needed for missing features)
-
-## RELATED MODELS
-
-(models in the NetLogo Models Library and elsewhere which are of related interest)
+Please refer to the Overview, Design concepts, and Details (ODD) document provided at https://github.com/aashisjoshi/resource-capability-ABM
 
 ## CREDITS AND REFERENCES
 
-(a reference to the model's URL on the web if it has one, as well as any other necessary credits, citations, and links)
+Authors: Aashis Joshi (a.r.joshi@tudelft.nl)
+Copyright: Aashis Joshi (2021)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 @#$#@#$#@
 default
 true
@@ -2116,90 +2091,6 @@ NetLogo 6.1.1
 @#$#@#$#@
 @#$#@#$#@
 <experiments>
-  <experiment name="experiment-29July2021-3modes-500runs-i" repetitions="500" sequentialRunOrder="false" runMetricsEveryStep="false">
-    <setup>setup</setup>
-    <go>go</go>
-    <timeLimit steps="3000"/>
-    <metric>number-of-people</metric>
-    <metric>number-of-built-systems</metric>
-    <metric>max-access-potential</metric>
-    <metric>min-access-potential</metric>
-    <metric>built-sys-state-min</metric>
-    <metric>built-sys-state-max</metric>
-    <metric>random-damage-limit</metric>
-    <metric>network-radius</metric>
-    <metric>seek-capability-when</metric>
-    <metric>share-access-potential</metric>
-    <metric>capability-call-help</metric>
-    <metric>capability-high</metric>
-    <metric>capability-low</metric>
-    <metric>capability-lim</metric>
-    <metric>built-sys-capability-output</metric>
-    <metric>built-sys-operation-threshold</metric>
-    <metric>sum-access-potential</metric>
-    <metric>avg-network-size</metric>
-    <metric>avg-built-sys-links-per-person</metric>
-    <metric>global-mean-capability-attainment</metric>
-    <metric>stdev-global-capability-attainment</metric>
-    <metric>capability-good-level-%</metric>
-    <metric>capability-acceptable-level-%</metric>
-    <metric>capability-unacceptable-level-%</metric>
-    <metric>avg-built-sys-state</metric>
-    <metric>stdev-built-sys-state</metric>
-    <metric>aggr-system-damages</metric>
-    <metric>aggr-system-recoveries</metric>
-    <metric>aggr-capability-provided</metric>
-    <metric>aggr-capability-help</metric>
-    <metric>aggr-access-potential-transferred</metric>
-    <metric>access-potential-initial-global-mean</metric>
-    <metric>access-potential-initial-global-stdev</metric>
-    <metric>max-global-mean-capability-attainment</metric>
-    <metric>min-global-mean-capability-attainment</metric>
-    <metric>max-global-mean-system-state</metric>
-    <metric>min-global-mean-system-state</metric>
-  </experiment>
-  <experiment name="experiment-29July2021-3modes-500runs-higherRDs" repetitions="500" sequentialRunOrder="false" runMetricsEveryStep="false">
-    <setup>setup</setup>
-    <go>go</go>
-    <timeLimit steps="3000"/>
-    <metric>number-of-people</metric>
-    <metric>number-of-built-systems</metric>
-    <metric>max-access-potential</metric>
-    <metric>min-access-potential</metric>
-    <metric>built-sys-state-min</metric>
-    <metric>built-sys-state-max</metric>
-    <metric>random-damage-limit</metric>
-    <metric>network-radius</metric>
-    <metric>seek-capability-when</metric>
-    <metric>share-access-potential</metric>
-    <metric>capability-call-help</metric>
-    <metric>capability-high</metric>
-    <metric>capability-low</metric>
-    <metric>capability-lim</metric>
-    <metric>built-sys-capability-output</metric>
-    <metric>built-sys-operation-threshold</metric>
-    <metric>sum-access-potential</metric>
-    <metric>avg-network-size</metric>
-    <metric>avg-built-sys-links-per-person</metric>
-    <metric>global-mean-capability-attainment</metric>
-    <metric>stdev-global-capability-attainment</metric>
-    <metric>capability-good-level-%</metric>
-    <metric>capability-acceptable-level-%</metric>
-    <metric>capability-unacceptable-level-%</metric>
-    <metric>avg-built-sys-state</metric>
-    <metric>stdev-built-sys-state</metric>
-    <metric>aggr-system-damages</metric>
-    <metric>aggr-system-recoveries</metric>
-    <metric>aggr-capability-provided</metric>
-    <metric>aggr-capability-help</metric>
-    <metric>aggr-access-potential-transferred</metric>
-    <metric>access-potential-initial-global-mean</metric>
-    <metric>access-potential-initial-global-stdev</metric>
-    <metric>max-global-mean-capability-attainment</metric>
-    <metric>min-global-mean-capability-attainment</metric>
-    <metric>max-global-mean-system-state</metric>
-    <metric>min-global-mean-system-state</metric>
-  </experiment>
   <experiment name="experiment-29July2021-3modes-higherRDs-help" repetitions="2000" sequentialRunOrder="false" runMetricsEveryStep="false">
     <setup>setup</setup>
     <go>go</go>
@@ -2245,50 +2136,6 @@ NetLogo 6.1.1
     <metric>access-potential-final-global-stdev</metric>
   </experiment>
   <experiment name="experiment-25Sept2021" repetitions="1000" sequentialRunOrder="false" runMetricsEveryStep="false">
-    <setup>setup</setup>
-    <go>go</go>
-    <timeLimit steps="3000"/>
-    <metric>number-of-people</metric>
-    <metric>number-of-built-systems</metric>
-    <metric>max-access-potential</metric>
-    <metric>min-access-potential</metric>
-    <metric>built-sys-state-min</metric>
-    <metric>built-sys-state-max</metric>
-    <metric>random-damage-limit</metric>
-    <metric>network-radius</metric>
-    <metric>seek-capability-when</metric>
-    <metric>share-access-potential</metric>
-    <metric>capability-call-help</metric>
-    <metric>capability-high</metric>
-    <metric>capability-low</metric>
-    <metric>capability-lim</metric>
-    <metric>built-sys-capability-output</metric>
-    <metric>built-sys-operation-threshold</metric>
-    <metric>sum-access-potential</metric>
-    <metric>avg-network-size</metric>
-    <metric>avg-built-sys-links-per-person</metric>
-    <metric>global-mean-capability-attainment</metric>
-    <metric>stdev-global-capability-attainment</metric>
-    <metric>capability-good-level-%</metric>
-    <metric>capability-acceptable-level-%</metric>
-    <metric>capability-unacceptable-level-%</metric>
-    <metric>avg-built-sys-state</metric>
-    <metric>stdev-built-sys-state</metric>
-    <metric>aggr-system-damages</metric>
-    <metric>aggr-system-recoveries</metric>
-    <metric>aggr-capability-provided</metric>
-    <metric>aggr-capability-help</metric>
-    <metric>aggr-access-potential-transferred</metric>
-    <metric>access-potential-initial-global-mean</metric>
-    <metric>access-potential-initial-global-stdev</metric>
-    <metric>max-global-mean-capability-attainment</metric>
-    <metric>min-global-mean-capability-attainment</metric>
-    <metric>max-global-mean-system-state</metric>
-    <metric>min-global-mean-system-state</metric>
-    <metric>access-potential-final-global-mean</metric>
-    <metric>access-potential-final-global-stdev</metric>
-  </experiment>
-  <experiment name="experiment-25Sept2021-b" repetitions="200" sequentialRunOrder="false" runMetricsEveryStep="false">
     <setup>setup</setup>
     <go>go</go>
     <timeLimit steps="3000"/>
